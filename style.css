@@ -1,0 +1,42 @@
+/* * {
+  background: whitesmoke;
+} */
+
+nav,
+ul,
+a,
+.brand-name {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.item-container {
+  display: inline-block;
+  background-color: rgb(96, 96, 183);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.background-arch {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(96, 96, 183);
+  border-top-left-radius: 18rem;
+  border-top-right-radius: 18rem;
+}
